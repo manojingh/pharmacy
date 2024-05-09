@@ -1,0 +1,50 @@
+.container
+{
+    color: black;
+    background-color: orchid;
+    border: 2px solid black;
+}
+
+.head{
+    background-color: orange;
+    height: 15vh;
+}
+
+.home{
+    background-color: aquamarine;
+    color: black;
+    height: 70vh;
+}
+.foot
+{
+    color: black;
+    background-color: chartreuse;
+    height: 8vh;
+}
+
+.col-8
+{
+    border: 1px solid black;
+}
+
+.col-4
+{
+    border: 1px solid black;
+}
+.nav
+{
+
+    background-color: yellow;
+    text-decoration: none;
+    justify-content: center;
+    height: 8vh;
+
+    
+}
+
+
+a{
+    color: black;
+}
+
+

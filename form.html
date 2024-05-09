@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="ab">heading</h>
+        <p id="ab">Paragragh</p>
+            <form action=""onsubmit= "onsubmitFunction()"> 
+                
+                <label for="">Name</label>
+                <input type=" text" id = "fname" onfocus="focusFunction(this.element)"><br>
+                <label for="">class</label>
+                <input type=" text" id = "" onfocus="focusFunction(this.element)"><br>
+                <label for="">country</label>
+                <select name="" id = "" id="" onfocus="focusFunction(this.element)"><br>
+                    <option value="India">Indian</option> 
+                    <option value="USA">USA</option>
+                    <option value="SRi lanks">sri lanka</option>
+                    </select>
+                    <script>
+               let w = (name, age)=> document.write(`hii this is ${name} and age is ${age}`);
+                w('Manoj', 25);
+                function sum() {
+                 console.log(argument);
+                 let sum=0;
+                 for(let i in arguments){
+                 sum= sum+arguments[i];
+                }
+                document.write(sum);
+            }
+            sum(10,20,34,5,54,32,54);
+</script>
+
+</body>
+</html>
